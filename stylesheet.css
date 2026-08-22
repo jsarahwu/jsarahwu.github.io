@@ -27,19 +27,6 @@ a:hover {
   text-decoration: none;
 }
 
-smalla {
-  color:black;
-  text-underline-offset: 0.15em;
-  text-decoration-color: #65affa;
-}
-
-
-
-smalla:focus,
-smalla:hover {
-  color:black;
-  text-decoration: none;
-}
 
 
 
@@ -60,6 +47,9 @@ a {
   font-feature-settings: "ss04" on, "ss05" on, "ss07" on;
 }
 
+a.fine-print {
+  font-size: 12px;
+}
 
 
 
