@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Instrument;
+  src: url(InstrumentSans[wdth\,wght].woff2);
+  font-stretch: 97%;
+}
+
+@font-face {
+  font-family: Instrument;
+  font-style: italic;
+  src: url(InstrumentSans-Italic[wdth\,wght].woff2);
+  font-stretch: 97%;
+}
+
+
+
+a {
+  color:black;
+  text-underline-offset: 0.15em;
+  text-decoration-color: #65affa;
+}
+
+
+
+a:focus,
+a:hover {
+  color:black;
+  text-decoration: none;
+}
+
+
+td {text-align:left;vertical-align:top;padding-bottom:20px;padding-left:4px;padding-right:4px}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: Instrument, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 435;
+  font-feature-settings: "ss04" on, "ss05" on, "ss07" on;
+}
+
+
+
+
+heading {
+  font-weight: 590;
+}
+
+name {
+  font-size: 30px;
+  line-height: 30px;
+}
+smalltext {
+  font-size: 12px;
+}
+
